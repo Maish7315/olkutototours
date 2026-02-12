@@ -1,0 +1,2 @@
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+src/assets/wildebeest-migration.mp4 filter=lfs diff=lfs merge=lfs -text
