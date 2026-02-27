@@ -32,7 +32,5 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: olkutoto
+          projectName: olkutototours
           directory: dist
-          # Optional: Set to true if you want to preview deployments
-          # gitHubToken: ${{ secrets.GITHUB_TOKEN }}

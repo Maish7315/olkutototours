@@ -1,0 +1,17 @@
+# Cloudflare Pages headers configuration
+# Cache static assets
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Cache HTML files
+*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+# Security headers
+/*
+  X-Content-Type-Options:nosniff
+  X-Frame-Options:DENY
+  Referrer-Policy:strict-origin-when-cross-origin
+
+# SPA redirect for all routes - required for client-side routing
+/*  /index.html  200
