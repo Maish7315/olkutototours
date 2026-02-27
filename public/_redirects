@@ -1,3 +1,2 @@
-# Cloudflare Pages redirects configuration
-# SPA redirect - all routes go to index.html for client-side routing
-/* /index.html 200
+# Netlify will use the redirects configured in netlify.toml
+# This file is kept for reference but is not needed
